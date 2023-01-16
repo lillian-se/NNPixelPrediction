@@ -1,1 +1,2 @@
 # NNPixelPrediction
+In this program you can test to train a machine learning model. Use your webcam to collect three different labels. One has to be the background that the webcam sees and the other two could be you holding things in front of the webcam. Take a number of samples of each label. Click Train and see how the loss is going down after each ephoc. When the model is finished training test your model by holding same things as before in front of webcam and see if the model is predicting correct.
