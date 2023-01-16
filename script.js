@@ -15,7 +15,9 @@ let countDisplayTwo;
 let countDisplayBg;
 
 
-
+function websiteVisits(response) {
+    document.querySelector("#visits").textContent = response.value;
+}
 
 
 function setup() {
