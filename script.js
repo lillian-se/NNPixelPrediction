@@ -164,7 +164,7 @@ function draw() {
   ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
   }
   
-  ctx.font = '64px Arial';
+  ctx.font = '32px Arial';
   ctx.textAlign = 'center';
   ctx.fillStyle = 'white';
  
