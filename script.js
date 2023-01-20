@@ -41,7 +41,7 @@ function setup() {
   var options = {
     inputs: [64, 64, 4],
     task: 'imageClassification',
-    debug: true,
+    debug: false,
   };
   pixelBrain = ml5.neuralNetwork(options);
 
