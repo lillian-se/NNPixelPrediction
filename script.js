@@ -99,6 +99,7 @@ function gotResults(error, results) {
   if (error) {
     return;
   }
+    console.log(results);
     label = results[0].label;
   classifyVideo();
 }
